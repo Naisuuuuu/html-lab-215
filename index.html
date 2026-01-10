@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sila's Profile</title>
+</head>
+<body>
+    <header>
+        <h1>My Profile Page</h1>
+        <p>This is a personal profile webpage created as part of the Web Development course (CP151).</p>
+    </header>
+        <nav>
+            <hr>
+            <!-- Navigation -->
+            <ul>
+                <li>
+                    <a href="#about">Information about Me</a>
+                </li>
+                <li>
+                    <a href="InterestsSkill">Interests and Skills</a>
+                </li>
+                <li>
+                    <a href="#Contacts">My Contacts</a>
+                </li>
+            </ul>
+            <hr>
+        </nav>    
+        <main>
+            <!--About Me-->
+            <section id="about">
+                <h2>About Me</h2>
+                <img src="images/images.jpg" alt="Cat Drawing" width="345">
+                <p>I know it's not my self photo but I don't want to show my self.</p>
+                <hr width="22%" align="left">
+                <h4>Information of Me</h4>
+                <p>
+                    <b>Name:</b> Sila Ninlapat
+                </p>
+                <p>
+                    <b>Nickname:</b> Sola
+                </p>
+                <p>
+                    <b>Age:</b> 18
+                </p>
+                <hr width="22%" align="left">
+                <h4>Information Education</h4>
+                <p>
+                    <b>University:</b> Srinakharinwirot University
+                </p>
+                <p>
+                    <b>Student ID:</b> 68102010215
+                </p>
+                <p>
+                    <b>Faculty:</b> Faculty of Science
+                </p>
+                <p>
+                    <b>Major:</b> Computer Science
+                </p>
+                <hr>
+            </section>
+            <section id="InterestsSkill">
+                <h2>Interests and Skills</h2>
+                <ul>
+                    <li>Programming</li>
+                    <li>Graphic design</li>
+                </ul>
+                <img src="images/image1.jpg" alt="Python" width="100">
+                <img src="images/image2.jpg" alt="Python" width="100">
+                <img src="images/image3.jpg" alt="Python" width="100">
+                <hr>
+            </section>
+            <section id="Schedule">
+                <h2>My Schedule</h2>
+                <table border="1" width="100%">
+                    <!-- Header -->
+                    <thead>
+                        <tr height="30">
+                            <th width="100">Day</th>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th>
+                            <th>7</th>
+                            <th>8</th>
+                            <th>9</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <!-- Monday -->
+                        <tr align="center" height="75">
+                            <td colspan="1">Monday</td>
+                            <td colspan="4">
+                                <b>CP112</b><br>
+                                (01-10-0110/1)<br>
+                                (Time : 08.30-12.20)
+                            </td>
+                        </tr>
+                        
+                        <!-- Tuesday -->
+                        <tr align="center" height="75">
+                            <td colspan="1">Tuesday</td>
+                            <td colspan="4">
+                                <b>CP151</b><br>
+                                (01-10-0110/1)<br>
+                                (Time : 08.30-12.20)
+                            </td>
+                        </tr>
+                        
+                        <!-- Wednesday -->
+                        <tr align="center" height="75">
+                            <td colspan="1">Wednesday</td>
+                            <td colspan="4">
+                                <b>SWU196</b><br>
+                                (01-35-0403E)<br>
+                                (Time : 08.30-12.20)
+                            </td>
+                            
+                            <td></td>   
+                            
+                            <td colspan="4">
+                                <b>SWU195</b><br>
+                                (01-35-0403E)<br>
+                                (Time : 13.30-17.20)
+                            </td>
+                        </tr>
+                        
+                        <!-- Thursday -->
+                        <tr align="center" height="75">
+                            <td colspan="1">Thursday</td>   
+                        </tr>
+                        
+                        <!-- Friday -->
+                        <tr align="center" height="75">
+                            <td colspan="1">Friday</td>
+                            <td colspan="4">
+                                <b>SWU193</b><br>
+                                (01-35-1304)<br>
+                                (Time : 08.30-12.20)
+                            </td>
+                            
+                            <td></td>
+                            
+                            <td colspan="4">
+                                <b>SWU194</b><br>
+                                (01-35-1304)<br>
+                                (Time : 13.30-17.20)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+            </section>
+            <section id="Contacts">
+                <h2>Contacts</h2>
+                <p><b>Email:</b> sila.comsi@g.swu.ac.th</p>
+                <p>If you want to contact me, please fill out the form below.</p>
+                <form action="#">
+                    <label for="fname">First Name:</label>
+                    <br>
+                    <input type="text" id="fname" name="fname" size="24" required>
+                    <br>
+                    <label for="lname">Last Name:</label>
+                    <br>
+                    <input type="text" id="lname" name="lname" size="24" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="text" id="email" name="email" size="24" required>
+                    <br>
+                    <label for="topic">Topic:</label>
+                    <br>
+                    <select name="topic" id="topic">
+                        <option>Select</option>
+                        <option>Project</option>
+                        <option>Study</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea name="message" id="message" rows="5" cols="25" required></textarea>
+                    <br>
+                    <button type="submit">Submit</button>
+                    <hr>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>This webpage is created for the Web Development course.</p>
+            <p>© 2026 Tharathon's Profile</p>
+            <a href="https://github.com/zAxn1e/CP151-Lab01" target="_blank" rel="noopener">
+             GitHub Repository for this assignment</a>
+        </footer>
+        </body>
+        </html>
